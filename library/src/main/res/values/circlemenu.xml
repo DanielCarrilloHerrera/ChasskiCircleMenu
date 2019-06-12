@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleMenu">
+        <attr name="start_angle" format="integer"/>
+        <attr name="toggle_animation_duration" format="integer"/>
+        <attr name="select_animation_duration" format="integer"/>
+        <attr name="exit_animation_duration" format="integer"/>
+        <attr name="distance" format="integer"/>
+        <attr name="hintsEnabled" format="boolean"/>
+        <attr name="multiple_check" format="boolean"/>
+        <attr name="border_check" format="boolean"/>
+        <attr name="alpha_check" format="boolean"/>
+        <attr name="center_drawable" format="reference"/>
+        <attr name="confirmation_center_drawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleMenuButton">
+        <attr name="full_drawable" format="boolean"/>
+        <attr name="hintText" format="string"/>
+    </declare-styleable>
+
+
+</resources>
